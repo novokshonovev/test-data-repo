@@ -13,5 +13,5 @@ $hash = hash_file('sha256', $fileName);
 $baseName = basename($fileName);
 copy($fileName, $hash . '.file');
 
-echo "'hash' => '{$hash}',\n";
-echo "'sourceUrl' => 'https://raw.githubusercontent.com/novokshonovev/test-data-repo/refs/heads/main/{$hash}.file',\n";
+echo "sourceUrl: 'https://raw.githubusercontent.com/novokshonovev/test-data-repo/refs/heads/main/{$hash}.file',\n";
+echo "currentHash: '{$hash}.hash',\n";
