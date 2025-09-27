@@ -14,4 +14,4 @@ $baseName = basename($fileName);
 copy($fileName, $hash . '.file');
 
 echo "sourceUrl: 'https://raw.githubusercontent.com/novokshonovev/test-data-repo/refs/heads/main/{$hash}.file',\n";
-echo "currentHash: '{$hash}.hash',\n";
+echo "currentHash: '{$hash}',\n";
